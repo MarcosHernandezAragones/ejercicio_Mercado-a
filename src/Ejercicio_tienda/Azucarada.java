@@ -1,5 +1,8 @@
 package Ejercicio_tienda;
 
-public class Azucarada {
-
+public final class Azucarada extends Bebida{
+	
+	private double azucar;
+	private boolean promocion;
+	
 }

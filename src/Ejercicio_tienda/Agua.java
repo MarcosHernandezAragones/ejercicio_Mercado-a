@@ -1,5 +1,7 @@
 package Ejercicio_tienda;
 
-public class Agua {
-
+public final class Agua extends Bebida{
+	
+	private String origen;
+	
 }
