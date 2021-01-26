@@ -29,6 +29,27 @@ public class Almacen{
 		
 		return precioTotal;
 	}
+	
+	
+	public float calcularPrecioMarca() {
+		float precioTotal=0;
+		String marca="pepsi";
+		
+		System.out.println("Dime el nombre de la marca");
+		
+		
+		for (Bebida[] bebidas : mEstanteria) {
+			for (Bebida bebida : bebidas) {
+				if (bebida !=null && this.) {
+					System.out.println("hola");
+				}
+			}
+		}
+		
+		return precioTotal;
+	}
+	
+	
 
 
 	public String getNombre() {
