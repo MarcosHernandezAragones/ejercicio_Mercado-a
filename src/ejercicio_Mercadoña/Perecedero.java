@@ -1,4 +1,4 @@
-package ejercicio_Mercadoña;
+package ejercicio_MercadoÃ±a;
 
 public final class Perecedero extends Producto{
 	
@@ -8,6 +8,20 @@ public final class Perecedero extends Producto{
 		super(nombre, descripcion, codigo);
 		this.fecha_caducidad = fecha_caducidad;
 	}
+
+	public int getFecha_caducidad() {
+		return fecha_caducidad;
+	}
+
+	public void setFecha_caducidad(int fecha_caducidad) {
+		this.fecha_caducidad = fecha_caducidad;
+	}
+
+	@Override
+	public String toString() {
+		return "Perecedero fecha_caducidad " + fecha_caducidad;
+	}
+	
 	
 	
 	

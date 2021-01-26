@@ -3,8 +3,11 @@ package Ejercicio_tienda;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Almacen c = new Almacen("JuanfranS.L");
+		
+		System.out.println("precio total de la sbebidas " + c.calcularPrecioTotal());
+		
 	}
 
 }

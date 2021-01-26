@@ -1,4 +1,4 @@
-package ejercicio_Mercadoña;
+package ejercicio_MercadoÃ±a;
 
 public final class No_Perecedero extends Producto{
 	

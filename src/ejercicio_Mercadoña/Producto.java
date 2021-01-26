@@ -1,4 +1,4 @@
-package ejercicio_Mercadoña;
+package ejercicio_MercadoÃ±a;
 
 public class Producto {
 	
@@ -47,7 +47,7 @@ public class Producto {
 
 	@Override
 	public String toString() {
-		return  "Producto nombre " + nombre + ", descripcion=" + descripcion + ", codigo" + codigo;
+		return  "Producto nombre " + nombre + ", descripcion " + descripcion + ", codigo" + codigo;
 	}
 	
 	
